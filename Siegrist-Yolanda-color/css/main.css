@@ -1,0 +1,20 @@
+body {
+    background-color: pink; /*--Color Equivalents Table--*/ 
+    font-family: arial;
+    }
+    
+h1 {
+    color: rgba(133,0,75,1); /*--HSL Color Picker--*/
+    }
+
+h2 {
+	color: #6997D3; /*--Adobe Kuler--*/
+	}
+
+h4 {
+	color: rgb(103,155,0); /*--Adobe Kuler--*/
+	}
+	
+p {
+	color: hsl(214,91%,27%); /*--HSL Color Picker--*/
+	}
