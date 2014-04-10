@@ -1,0 +1,54 @@
+body {
+    background-color: pink; 
+    font-family: 'Sirin Stencil', cursive;
+    }
+    
+h1 {
+    color: rgba(133,0,75,1);
+    font: oblique bolder 3em 'Sirin Stencil', cursive;
+    text-shadow: 4px 4px 14px #000;
+    text-transform: uppercase;
+    text-align: center; 
+    }
+
+h2 {
+	color: #6997D3;
+	font: small-caps bold 2em 'Sirin Stencil', cursive;
+	text-shadow: -5px -5px 12px #969696;
+	letter-spacing: 0.2em; 
+	}
+
+h4 {
+	color: rgb(103,155,0);
+	font: small-caps bold 2em 'Sirin Stencil', cursive;
+	text-shadow: 4px 4px 14px #969696;
+	text-align: center;
+	letter-spacing: 0.2em; 
+	}
+	
+p {
+	color: hsl(214,91%,27%);
+	font: 1em 'Sirin Stencil', cursive;
+	text-align: justify; 
+	}
+	
+ul, li {
+	color: hsl(214,91%,27%);
+	font: 1em 'Sirin Stencil', cursive;
+	text-align: justify; 
+	}
+	
+a:link {
+    color: #A734FF;
+    text-decoration: none;
+}
+a:visited {
+    color: #000000;
+}
+a:hover {
+    color: #A734FF;
+    text-decoration: underline;
+}
+a:active {
+    color: #FF1493;
+}
