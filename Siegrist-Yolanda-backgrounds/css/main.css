@@ -104,7 +104,7 @@ ol  {
 ul {
 	color: #0E1CE8;
 	font: 1em 'Sirin Stencil', cursive;
-	list-style-type: circle inside;
+	list-style: circle inside;
 	}
 
 a:link {
