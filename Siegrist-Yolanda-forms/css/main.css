@@ -1,0 +1,194 @@
+header, section, footer, aside, nav, article, figure {
+	display: block;
+	}
+	
+body {
+	color: #090165;
+	background-image: url("../images/pattern_147.gif"); 
+	background-position: center; 
+	font-family: 'Sirin Stencil', cursive;
+	line-height: 1.4em; 
+	margin: 4px;
+    }
+    
+.wrapper {
+	width: 960px;
+	margin: 20px auto 20px auto;
+	border: 8px ridge #338833;
+	background-color: #9AD5FF;
+	}
+
+header {
+	height: 110px;
+	background: linear-gradient(to bottom, #FCECFC 0%,#FBA6E1 47%,#FD89D7 72%,#FF7CD8 92%);
+	}
+	
+h1 {
+	color: #AF4DFF;
+	font: oblique bolder 'Sirin Stencil', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.2em;
+	width: 960px;
+	height: 60px;
+	margin: 0px;
+	padding: 2px;
+	}
+
+h2 {
+	color: #E831B2;
+	font: small-caps bold 2em 'Sirin Stencil', cursive;
+	text-shadow: -5px -5px 12px #AF4DFF;
+	text-align: center; 
+	}
+	
+h3 {
+	color: #AF4DFF;
+	font: small-caps bold 2em 'Sirin Stencil', cursive;
+	text-shadow: 4px 4px 14px #E831B2;
+	text-align: center;	
+	}
+	
+nav, footer {
+	clear: both;
+	background: linear-gradient(to top, #FCEABB 0%,#FCC850 65%);
+	border: 0.5em groove #0E1CE8;
+	border-radius: 0.625em;
+	color: #090165;
+	height:40px;
+	padding: 5px 0px 5px 20px;
+	}
+	
+footer {
+	font-size: 80%;
+	}
+
+nav ul {
+	text-align: center;
+	margin: 0px;
+	padding: 5px 0px 5px 20px;
+	}
+	
+nav li {
+	display: inline;
+	margin-right: 40px;
+	}
+	
+nav li a:active {
+    color: #FF1493;
+	} 
+
+nav li a:hover, nav li a:link {
+	color: #A734FF;
+	}
+
+p, ol  {
+	color: #090165;
+	font: 1em 'Sirin Stencil', cursive;
+	list-style-type: upper-roman; 
+	}
+	
+section.content {
+	float: left;
+	width: 660px;
+	margin: 10px;
+	padding: 0px 10px 0px 10px;
+	border-right: 2px dashed #338833;
+	}
+
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+	}
+	
+figure {
+	float: left;
+	width: 180px;
+	height: 200px;
+	padding: 5px;
+	margin: 20px;
+	border: 4px dotted #A734FF;
+	}
+
+aside {
+	width: 200px;
+	float: left;
+	margin: 10px;
+	padding: 0px 10px 0px 10px;
+	}
+	
+aside h2 {
+	padding: 10px 0px 10px 0px;
+	}
+
+table {
+	width: 80px;
+	}
+	
+th, td {
+	padding: 6px 5px 6px 5px;
+	}
+	
+th {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 80%;
+	border-bottom: 2px solid #111111;
+	border-top: 1px solid #999;
+	text-align: left;
+	}
+	
+tr.even {
+	background-color: #C3E6E5;
+	}
+
+tr:hover {
+	background-color: #FD89D7;
+	}
+
+fieldset { 
+	color: #A734FF;
+	background-color: #C3E6E5;
+	background-image: url("../images/dont-judge.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	border: 2px solid #FD89D7;
+	border-radius: 0.625em;
+	font-size: 80%;
+	width: 620px;
+	}
+	
+label {
+	float: left;
+	padding-right: 10px;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	}
+	
+textarea:focus, input:focus {
+	border: 2px solid #FD89D7;
+	}
+	
+textarea:hover, input:hover {
+    background-color: #9AD5FF;
+	}
+
+a:link {
+    color: #FD89D7;
+    text-decoration: none;
+	}
+
+a:visited {
+    color: #000000;
+	}
+
+a:hover {
+    color: #A734FF;
+    text-decoration: underline;
+	}
+
+a:active {
+    color: #FD89D7;
+	}
